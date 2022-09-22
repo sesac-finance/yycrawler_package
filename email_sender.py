@@ -14,7 +14,7 @@ import smtplib#smtp서버 접속해서 이메일보내는 파이썬 라이브러
 SMTP_SERVER='smtp.naver.com' #smtp.gmail.com : port 465
 SMTP_PORT=465
 SMTP_USER='tinggunj@naver.com'
-SMTP_PASSWORD=open(r'C:\Users\shcho\Desktop\윤영\sesac\project1_crawring\final\email_config.txt','r').read().strip()
+SMTP_PASSWORD=open(r'/home/ubuntu/workspace/config/email_config','r').read().strip()
 
 #이메일 발송 함수
 def send_mail(from_user:str,to_users:list,subject:str,

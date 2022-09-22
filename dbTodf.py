@@ -13,11 +13,12 @@ def newsdb2df(result)->bool:
 
     try:
         connect=pymysql.connect(
-        host='127.0.0.1',
+        host='database-1.c9hqzj24v6v5.ap-northeast-2.rds.amazonaws.com',
+        port=3306,
         user='yy',
-        passwd=open(r'C:\Users\shcho\Desktop\윤영\sesac\project1_crawring\final\sqldb_config','r').read().strip(),
+        passwd=open(r'/home/ubuntu/workspace/config/newsdb_config','r').read().strip(),
         db='newsdb',
-        charset='utf8')
+        charset='utf8mb4')
 
         print('DB 접속 성공')
         #테이블 생성
