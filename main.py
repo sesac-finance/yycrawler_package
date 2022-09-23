@@ -17,7 +17,7 @@ df2html(news) #html 파일생성
 #HTML->이메일 전송
 from email_sender import send_mail 
 RPA_MAIL=send_mail('tinggunj@naver.com',['tinggunj@gmail.com','tinggunj@naver.com'],
-    subject='[매일경제 오늘의 인기뉴스]', content='최근 2시간이내 인기뉴스 목록입니다.',
+    subject='[매일경제 오늘의 인기뉴스!]', content='최근 2시간이내 인기뉴스 목록입니다.',
     attachments=[r'/home/ubuntu/workspace/mknews_pkg/yycrawler_package/today_mk_Best.html'])
 
 

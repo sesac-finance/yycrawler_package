@@ -6,7 +6,7 @@ def newsdb2df(result)->bool:
     크롤링한 뉴스들{best_To_Tuple()}을 
     DB저장후 데이터프레임으로 출력하는 함수
     --------------------------------------
-    iuput : best_To_list(),튜플
+    iuput : best_To_Tuple(),튜플
     output : news_top10 ,데이터프레임
     '''
 
