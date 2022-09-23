@@ -12,5 +12,5 @@
 - main.py : 메인 모듈
 
 >> crawler : 크롤링 패키지
-    └── mknews_crw.py 
+    >> mknews_crw.py 
 
