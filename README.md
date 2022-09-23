@@ -18,6 +18,7 @@
   - processing : 데이터 전처리 패키지 -> save_html.py (데이터프레임을 html로 저장)
   
   - rpa : 자동화 패키지 -> email_sender.py (크롤링한 뉴스 데이터.html을 이메일 전송)
+  - 
                        -> telegram.py : 크롤링한 뉴스 데이터.html을 이메일 전송 (특정 카테고리별 인기뉴스 전송(진행중...))
                        
                        
