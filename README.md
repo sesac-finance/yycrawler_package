@@ -13,13 +13,13 @@
 
 - main.py : 메인 모듈
 
-  - crawler : 크롤링 패키지 -> mknews_crw.py 
+  - crawler : 크롤링 패키지 -> **mknews_crw.py**
 
-  - database : db저장 및 출력 후 데이터프레임화 패키지 ->dbTodf.py
+  - database : db저장 및 출력 후 데이터프레임화 패키지 ->**dbTodf.py**
 
-  - processing : 데이터 전처리 패키지 -> save_html.py (데이터프레임을 html로 저장)
+  - processing : 데이터 전처리 패키지 -> **save_html.py** (데이터프레임을 html로 저장)
   
-  - rpa : 자동화 패키지 -> email_sender.py (크롤링한 뉴스 데이터.html을 이메일 전송)
+  - rpa : 자동화 패키지 -> **email_sender.py** (크롤링한 뉴스 데이터.html을 이메일 전송)
   
                        
                        
